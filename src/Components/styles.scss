@@ -1,0 +1,147 @@
+$badge-color: red !important;
+$font-family: system-ui !important;
+
+.right-header{
+  align-items: center;
+  .addnew-btn{
+    background-color: #254965 !important; 
+  }
+}
+.card-id{
+  color:grey!important;
+  font-size:10px;
+  float:right;
+}
+.clock{
+  margin-left:4px !important;
+}
+.card-logo {
+  &.login-logo .inner-circle{
+    width: 25px;
+    height: 25px;
+    font-size:5px;
+  }
+}
+.middle-footer 
+{
+  display: flex;
+  justify-content: space-between;
+  float: right;
+  margin-left: 35px;
+}
+.date {
+  font-size:10px;
+}
+.login-logo{
+  background-color: #001fff59;
+  display: inline-block;
+  margin-bottom:0 !important;
+  border-radius: 50%;
+  .inner-circle{
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: system-ui
+  }
+}
+
+.search-box {
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  svg{
+    position: relative;
+    left:20px;
+    top:1px;
+  }
+  input{
+    border: none !important;
+    border-bottom: 1px solid lightgrey!important;
+    border-radius: 0;
+    padding-left: 25px;
+    &:focus{
+      box-shadow:0px 3px 1px -1px rgb(13 110 253 / 30%);
+    }
+  }
+}
+.brand-name {
+  font-weight: 900;
+  font-size: 21px;
+}
+.gift-badge {
+  font-size: 10px !important;
+  left: -3px !important;
+  top: 5px !important;
+  position: relative;
+  font-family: $font-family;
+  background-color: $badge-color;
+}
+.breadcrumb-bar {
+  background-color: #f6f7f9;
+  font-family: $font-family;
+  font-size: 14px;
+  font-weight: 500;
+}
+.breadcrumb-container{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .btn-publish{
+      margin-left:5px;
+      background-color:#254965;
+    }
+    .arrow-icon{
+      background-color:#254965;
+      border-radius: 10px;
+      color:white;
+      position: relative;
+      right: 6px;
+      top: -4px;right:6px;
+      stroke-width: 1.5;
+
+    }
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  content: var(--bs-breadcrumb-divider, '>') !important;
+}
+ol {
+  margin: revert !important;
+}
+.view-job-btn {
+  font-family: $font-family;
+  font-size: 14px !important;
+  color:grey;
+  border: 1px solid #c0c0c0 !important;
+  background-color:transparent!important;
+}
+.custom-bc ,.card-footer ,.filter ,.brand-name {
+  display: flex;
+  align-items: center;
+
+}
+.table-filters,.form-select , 
+.card-subtitle ,.card-name,.btn,.dropdown-menu{
+  font-size: 10px!important;
+  font-family: $font-family;
+}
+
+.card-name {
+  color:#444e95;
+}
+.card-subtitle{
+ color: #898686;
+}
+.card-footer {
+  font-size:5px;
+  justify-content: space-between;
+}
+
+.form-select{
+  background-color:transparent!important;
+}

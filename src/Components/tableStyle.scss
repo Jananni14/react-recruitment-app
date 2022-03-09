@@ -1,0 +1,30 @@
+.note {
+  border-left: 4px solid;
+  border-radius: 4px;
+  background-color: white;
+  padding: 10px;
+  width: 250;
+  margin:1rem;
+  font-size:10px;
+  font-weight: 600;
+}
+.note-open{
+   border-color: grey!important;
+}
+.note-round1{
+  border-color:orange;
+}
+.note-round2{
+  border-color: #c32d6aad;
+}
+.note-offer{
+  border-color:  #3d1c8bc9;
+}
+.table-main {
+  display: flex;
+  overflow: auto;
+  margin-bottom:20px!important;
+  scroll-behavior:smooth;
+  display: flex!important;
+  max-height: calc(100vh - 8.5rem);
+}

@@ -1,0 +1,40 @@
+@import 'bootstrap/dist/css/bootstrap.css';
+
+#sidebar-wrapper {
+  min-height: 100vh !important;
+  -webkit-transition: margin 0.25s ease-out;
+  -moz-transition: margin 0.25s ease-out;
+  -o-transition: margin 0.25s ease-out;
+  transition: margin 0.25s ease-out;
+  padding: 0!important;
+}
+
+#page-content-wrapper {
+  min-width: 0;
+  font-family: system-ui !important;
+ 
+}
+.header{
+  position :sticky;
+  top:0;
+  z-index: 1081;
+  margin-left:2px!important;
+}
+
+.col-l {
+  flex: 0 0 auto;
+  width: 7%;
+  background-color: #12344d;
+}
+.col-r {
+  flex: 0 0 auto;
+  width: 93%;
+}
+.table-container{
+  background-color:#ebeef347;
+
+}
+body {
+  overflow: hidden!important;
+  background-color:#ebeef396;
+}
