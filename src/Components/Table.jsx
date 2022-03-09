@@ -82,12 +82,12 @@ function Table2() {
                           minHeight: 500
                         }}
                       >
-                        {column.items.map((item, index) => {
+                        {column.items.map((item, indexId) => {
                           return (
                             <Draggable
                               key={item.id}
                               draggableId={item.id}
-                              index={index}
+                              index={indexId}
                             >
                               {(providedProps, snapshotProps) => {
                                 return (
@@ -133,4 +133,4 @@ function Table2() {
   );
 }
 
-export default Table2;
+export default Table;
